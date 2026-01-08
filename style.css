@@ -11,7 +11,7 @@ header{
     background-color: #FFF8F3;
     padding-top: 51px;
     background: url(/Resource/developer.png) , url(/Resource/header_bg.png),#FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 36px 23px, bottom right;
     background-repeat: no-repeat;
 }
 nav{
@@ -42,10 +42,7 @@ nav .menu a{
     text-decoration: none;
     
 }
-/* nav .menu :hover{
-    transition: 1s ease-in-out;
-    transform: scale(1.1);
-} */
+
 .btn{
     background-color: #FD6E0A;
     color: white;
@@ -79,7 +76,7 @@ nav .menu a{
     margin-bottom: 5px;
 }
 #banner .banner-content h1{
-    font-size: 85px;
+    font-size: 80px;
     font-weight: bold;
     color: #181818;
     margin-bottom: 10px;
@@ -92,4 +89,44 @@ nav .menu a{
 }
 #banner .banner-img img{
     max-width: 450px;
+}
+#about{
+    padding-top: 124px;
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff5ecdc;;
+    padding: 137px 142px;
+    border-radius: 30px;
+}
+#about .section-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+#about .section-heading p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+#about .section-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.section-info .info-card h4{
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+
+}
+.section-info .info-card h3{
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
 }
